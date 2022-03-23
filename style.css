@@ -35,14 +35,17 @@ header {
     color: #eae9e4;
 }
 #text {
+    font-weight: 700;
     font-size: 18px;
     height: 60px;
     padding: 5px 15px 15px;
     text-align: center;
-    width: 100%;
+    margin: 0 auto;
+    width: 200px;
     color: #666;
 }
 button {
+    font-size: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,6 +63,8 @@ button {
     color: #666;
 }
 #sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     position: absolute;
     font-size: 80px;
     top: 50%;
@@ -69,13 +74,14 @@ button {
     
 } 
 #title {
+    font-weight: 400;
     color: #666;
     position: absolute;
     top: 180px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    width: 100%;
+    width: 200px;
     font-size: 18px;
     padding: 40px 40px 0 40px;
 }
@@ -91,7 +97,11 @@ button {
     border-radius: 50%;
 }
 hr {
-    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    padding-left: 40px;
 }
 
 #menuContainer {
@@ -103,9 +113,20 @@ hr {
     background-color: #666;
 }
 #menu {
+    font-size: 36px;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#account {
+    font-size: 36px;
+}
+
+button:hover {
+    background-color: #666;
+    color: #fff;
+    border: 1px solid white;
 }
